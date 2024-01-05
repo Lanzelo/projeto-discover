@@ -28,7 +28,9 @@
 
 body {
   /* background: color image repeat position/size */
+  /* vh = viewporte height */
   background: black var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -39,7 +41,8 @@ body * {
 #container {
   /* border: width color style */
   /* border: 3px solid black; */
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -160,3 +163,9 @@ footer {
 footer a:hover {
   color: var(--footer-hover);
 }
+
+/* media queries
+ só funciona com a meta de viewport (viewport é a parte visível do documento)
+@media {
+} 
+*/
