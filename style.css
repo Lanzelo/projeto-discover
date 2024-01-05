@@ -91,6 +91,10 @@ body * {
   animation: slide-in 0.3s forwards;
 }
 
+#switch button:hover {
+  outline: 8px solid var(--social-link-hover);
+}
+
 #switch span {
   display: block; /* span é um elemento inline que não aceita largura, porque o Mike não fez uma div?*/
   width: 64px;
